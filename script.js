@@ -16,13 +16,13 @@ function findFirstNonRepeatedCharacter() {
     const char = inputString[i];
     if (charCount[char] === 1) {
       // Use an alert to display the result to the user
-      alert(`The first non-repeated character in "${inputString}" is "${char}".`);
+      alert(`${inputString}${char}`);
       return;
     }
   }
 
   // If no non-repeated character is found, use an alert to display an error message to the user
-  alert(`No non-repeated character found in "${inputString}".`);
+  alert(${inputString});
 }
 
 // Call the function
